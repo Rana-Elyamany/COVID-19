@@ -54,6 +54,9 @@
 .home .nav ul li h1 .s19{
     color: rgb(80,101,142);
 }
+.home .nav ul li h1 i{
+    font-size: 30px;
+}
 .home .nav ul li button{
     width: 120px;
     height: 40px;
@@ -1060,6 +1063,8 @@ padding-bottom: 50px;
     }
     .home .nav{
         width: 100%;
+        overflow: hidden;
+        
     }
     .home .nav ul li a{
         display: none;
@@ -1089,13 +1094,14 @@ padding-bottom: 50px;
         width: 100%;
     }
     .home .row1 .cap{
-        width: 90%;
-        margin: 15px;
-        padding: 10px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
     }
     .home .row1 .cap .prt1{
-        margin: 10px;
-        padding: 10px;
+        margin: 10px auto;
+        padding: 0;
+        width: 90%;
     }
     .home .row1 .cap .prt1 h1{
        font-size: 72px;
@@ -1122,12 +1128,13 @@ padding-bottom: 50px;
     }
     .home .row1 .cap .prt3{
         width: 100%;
-        padding: 30px 0px;
+        padding: 0;
+        margin: 0;
         text-align: center;
 
     }
     .home .row1 .cap .prt3 button{
-        width: 60%;
+        width: 50%;
         margin: 20px auto;
         display: block;
     }
@@ -1150,13 +1157,15 @@ padding-bottom: 50px;
     .home .row1 .cap .prt5{
         margin: 10px auto; 
         text-align: center;
+        width: 95%;
     }
     .home .row1 .image {
         width: 95%;
         margin: auto;
     }
     .home .container{
-        margin: 5px;
+        margin: auto;
+        width: 100%;
     }
     .home .container .row2{
         flex-direction: column;
@@ -1179,10 +1188,15 @@ padding-bottom: 50px;
     }
     .home .container .row2 .prt2{
         margin: 10px auto;
-        width: 90%;
+        width: 85%;
     }
     .home .container .row2 .prt2 ul li h1{
         font-size: 24px;
+    }
+    .home .container2{
+        margin: 0; 
+        padding: 0;
+        width: 100%;
     }
     .home .container2 .row3{
         margin: 10px auto;
@@ -1195,8 +1209,15 @@ padding-bottom: 50px;
         text-align: center;
 
     }
+    .home .container2 .row3 .prt1 h3{
+        padding: 20px 0px;
+        width: 90%;
+        margin: auto;
+    }
     .home .container2 .row3 .prt1 h1{
+        width: 90%;
         font-size: 35px;
+        margin: auto;
     }
     .home .container2 .row3 .prt1 p {
         width: 90%;
@@ -1206,14 +1227,15 @@ padding-bottom: 50px;
         flex-direction: column;
         flex-wrap: wrap;
         width: 100%;
+        margin: 0;
    }
    .home .container2 .row3 .prt2 div{
         width: 80%;
         margin:10px auto ;
    }
    .home .container2 .row3 button{
-        margin: 20px;
-        width: 90%;
+        margin: 30px;
+        width: 80%;
         text-align: center;
    }
    .home .row4{
@@ -1224,13 +1246,25 @@ padding-bottom: 50px;
         margin: 0;
         width: 100%;
    }
+   .home .row4 .prt1 h3{
+        width: 90%;
+        margin:10px auto;
+        padding: 0;
+   }
+   .home .row4 .prt1 h1 {
+        width: 90%;
+        margin: auto;
+   }
    .home .row4 .prt1 p{
         line-height: 25px;
+        margin: 10px auto;
+        width: 90%;
    }
    .home .row4 .prt2{
-        margin: 14px;
+        margin: 15px auto;
         flex-direction: column;
         flex-wrap: wrap;
+        width: 90%;
    }
    .home .row4 .prt2 div{
         width: 70%;
@@ -1240,10 +1274,20 @@ padding-bottom: 50px;
         flex-direction: column;
         flex-wrap: wrap;
         width: 100%;
+        margin: 0;
+        padding: 0;
    }
    .home .row4 .prt3 .cap{
-        width: 68%;
+        width: 60%;
         margin: auto;
+    }
+    .home .row4 .prt3 .btn {
+        width: 70%;
+        margin: 10px auto;
+    }
+    .home .row4 .prt3 .btn button {
+        width: 95%;
+        margin:10px auto;
     }
     .home .row4 .prt3 .cap p{
         line-height: 25px;
@@ -1251,9 +1295,17 @@ padding-bottom: 50px;
     .home .row4 .prt3 .cap p i {
         left: -65px;
     }
+    .home .container3{
+        width: 100%;
+    }
     .home .container3 .row5{
         margin: 0;
         width: 100%;
+    }
+    .home .container3 .row5 .prt1 h3{
+        width: 90%;
+        margin: 10px auto;
+        padding: 20px 0px;
     }
     .home .container3 .row5 .prt1{
         margin: 0;
@@ -1281,6 +1333,7 @@ padding-bottom: 50px;
         width: 100%;
     }
     .home .container3 .row5 .prt3 button{
+        margin: 25px auto;
         width: 90%;
     }
     .home .container3 .row5 .prt3 .about{
@@ -1289,10 +1342,14 @@ padding-bottom: 50px;
     }
     .home .container3 .row6{
         margin: 20px auto;
-        padding: 15px auto;
+        padding: 20px;
         flex-direction: column;
         flex-wrap: wrap;
-        width:85%;
+        width:80%;
+    }
+    .home .container3 .row6 .prt1 h1{
+        margin: 0px;
+        width: 80%;
     }
     .home .container3 .row6 .prt1{
         padding: 0;
@@ -1305,6 +1362,11 @@ padding-bottom: 50px;
     .home .container3 .row7{
         margin: 0;
         width: 100%;
+    }
+    .home .container3 .row7 .prt1{
+        width: 100%;
+        margin:40px 0;
+        padding: 0;
     }
     .home .container3 .row7 .prt2{
         margin: 0;
@@ -1322,9 +1384,9 @@ padding-bottom: 50px;
         width: 100%;
     }
     .home .container4 .row8{
-        margin: 0;
+        margin: 20px auto;
         padding: 0;
-        width: 100%;
+        width: 80%;
         flex-direction: column;
         flex-wrap: wrap;
 
@@ -1398,6 +1460,7 @@ padding-bottom: 50px;
     }
     .home .row10 .prt2{
         width: 100%;
+        margin: auto;
         flex-direction: column;
         flex-wrap: wrap;
     }
@@ -1406,7 +1469,7 @@ padding-bottom: 50px;
         margin:auto;
     }
     .home .row10 .prt2 .prt22{
-        width: 90%;
+        width: 87%;
         margin:auto;
 
     }
@@ -1430,7 +1493,7 @@ padding-bottom: 50px;
     .home .container7 .row12{
         padding: 5px;
         margin: 0;
-        width: 100%;
+        width: 90%;
 
     }
     .home .container7 .row12 .prt1{
